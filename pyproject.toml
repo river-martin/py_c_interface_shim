@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py_package"
+description = "A minimal working example of a Python/C interface shim"
+readme = "README.md"
+keywords = ["shim"]
+classifiers = [
+	"Intended Audience :: Science/Research",
+	"Topic :: Software Development :: Libraries :: Python Modules",
+]
+authors = [{ name = "River Martin" }]
+dynamic = ["version"]
+dependencies = ['build', 'setuptools']
+requires-python = ">= 3.8"

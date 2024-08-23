@@ -1,0 +1,8 @@
+Package         Version Editable project location
+--------------- ------- -------------------------------------
+build           1.2.1
+packaging       24.1
+pip             24.0
+py_package      0.0.0   /home/defaultuser/py_c_interface_shim
+pyproject_hooks 1.1.0
+setuptools      73.0.1
